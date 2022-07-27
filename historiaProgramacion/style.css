@@ -12,6 +12,75 @@ nav{
     margin:0px 40px;
     height: 84px;
 }
+
+#svg1{
+    
+    animation-duration: 4s ;
+    animation-iteration-count: 1;
+    animation-name: svgMover
+
+}
+
+
+
+
+#svg1:hover {
+    transition: transform 4s;
+    
+}
+
+.polygonos{
+    animation-duration: 3s;
+    animation-iteration-count: 1;
+    animation-name: svgPolygonos;
+}
+
+.polygonos:hover{
+    animation-name: svgPolygonos;
+}
+
+@keyframes svgPolygonos{
+    30%{
+        transform: translateY(-15px);
+        
+        
+    }
+    60%{ transform: translateY(-30px);
+    }
+    90%{ transform: translateY(-60px);
+    }
+    100%{ transform: translateY(-200px); }
+
+}
+
+.rectangulos{
+    animation-duration: 4s;
+    animation-iteration-count: 1;
+    animation-name: svgRectangulos;
+}
+
+.rectangulos:hover{
+    animation-name: svgRectangulos ;
+}
+   
+
+@keyframes svgRectangulos{
+        30%{
+            transform: translateY(-15px);
+            
+            
+        }
+        60%{ transform: translateY(-30px);
+        }
+        90%{ transform: translateY(-60px);
+        }
+        100%{ transform: translateY(-200px); }
+}     
+
+
+
+
+
 .menuNav{
     display: flex;
     width: 300px;
