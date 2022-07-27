@@ -1,0 +1,102 @@
+.holePage{
+    margin: 0px;
+    background-color: #427E80;
+    color: #F0F5E4;
+    font-family: 'Montserrat', sans-serif;
+    display: block;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin:0px 40px;
+    height: 84px;
+}
+.menuNav{
+    display: flex;
+    width: 300px;
+    justify-content: space-around;
+}
+.listItem{
+    box-shadow: 2px 3px #154454;
+    border-radius: 10px;
+    padding: 10px;
+    text-decoration: none;
+    background-color: #F0F5E4;
+    color: #154454;
+}
+header{
+    background-image: url(../VIdeosImagenes/codigo.jpeg);
+    background-attachment: fixed;
+    background-size: cover;
+    min-height: 500px;
+    color: #eeeeee;
+    font-size: 28px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0px 100px;
+    
+}
+
+.mainTitle{
+    text-align: center;
+    background-color: #2D2D2D;
+    text-shadow: 5px 5px orangered;
+}
+h2{
+    text-align: center;
+    text-shadow:4px 4px black;
+    font-size: 50px;
+    height: 46px;
+}
+main{
+    padding: 100px 20px;
+    display: flex;
+    width: 100%;
+}
+.mainConteiner{
+    margin: 100px 0px;
+    width: 95%;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 20px;
+}
+.card{
+        border: 5px solid #154454;
+        background-color: #F0F5E4;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+}
+ .img-class{
+    width: 100%;
+ }
+
+ p{
+    color: black;
+    text-align: center;
+ }
+ button{
+    padding: 20px;
+    border-radius: 15px;
+    background-color: #427E80;
+    font-family: Arial, Helvetica, sans-serif;
+    box-shadow: 2px 3px #154454;
+    text-align: center;
+    text-decoration: none;
+    width: 60%;
+    margin-bottom: 20px;
+    border: none;
+}
+footer{
+    background-color: #1d1d1d;
+    display: flex;
+    gap: 40%;
+    height: 80px;
+    
+}
+.pFooter{
+    color: #F0F5E4;
+}
